@@ -212,3 +212,93 @@ iframe{
 }
 /* Inspiration Section style ends here */
 
+/* target section starts here */
+.target-section{
+    width: 1140px;
+    height: 460px;
+    margin: 151px auto;
+}
+
+.target-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.target-section-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+
+}
+
+.target-section-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 144px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.card-content-html{
+    width: 364px;
+    height: 299px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-content-css{
+    width: 364px;
+    height: 299px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.card-content-js{
+    width: 364px;
+    height: 299px;
+    padding: 30px;
+    border-radius: 15px;
+    background: #FFDF000D;
+}
+
+
+.card-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    
+}
+.card-description{
+    color: rgb(13, 19, 33); 
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.card-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-top: 24px;
+    
+
+/* target section ends here */
+
