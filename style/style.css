@@ -310,7 +310,7 @@ iframe{
 /* support section style starts here */
 
 .support-section-container{
-    background-image: url("assets/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     background-color: rgba(0,0,0,0.4);
     width: 1140px;
     height: 314px;
