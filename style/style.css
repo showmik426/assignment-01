@@ -3,3 +3,63 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Banner Section Starts here  */
+
+.banner-container{
+    max-width: 1440px;
+    max-height: 652px;
+    margin: 74px auto;
+    background-image: url("../assets/Hero-bg.png");
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content img{
+    margin-top: 26px;
+    width: 240.28px;
+    height: 240px;
+}
+
+.banner-content h4{
+color: rgb(13, 19, 33);
+font-size: 48px;
+font-weight: 800;
+text-align: center;
+margin-top: 32px;
+}
+
+.banner-content p{
+    color: #0D1321;
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+text-align: center;
+}
+
+.banner-content button{
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 21px 24px 21px 24px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+/* banner section ends here */
