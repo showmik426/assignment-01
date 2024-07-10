@@ -357,10 +357,6 @@ iframe{
     margin-bottom: 0px;
 }
 
-#support-input-section{
-    
-    
-}
 
 input{
     width: 548px;
@@ -418,6 +414,9 @@ input{
     justify-content: space-around;
     gap: 18px;
 }
-
+.footer-icon img{
+    width: 36px;
+    height: 36px;
+}
 /* footer section style ends here  */
 
